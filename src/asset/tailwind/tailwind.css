@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  @apply font-mono;
+}
+
+.active a {
+  @apply text-purple-600;
+}
+nav a:hover span,
+nav a:hover {
+  @apply text-purple-600;
+}
